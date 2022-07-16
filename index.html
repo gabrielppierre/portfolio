@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Pierre</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        window.alert("Página não otimizada para dispositivos mobile");
+    </script>
+</head>
+<body>
+    <header>
+        <header>
+            <nav>
+                <li><a href="#home">início</a></li>
+                <li><a href="#about">sobre</a></li>
+                <li><a href="#port">portfólio</a></li>
+                <li><a href="#contact">contato</a></li>
+            </nav>
+        </header>
+    </header>
+
+    <main id="home">
+        <div class="container">
+            <div class="icons">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gabrielpierre._/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/gabriel.pierre.37819959/"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/gabrielppierre"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+            <div class="title">
+                <h1 class="dinamico">Criatividade</h1>
+                <h2>produtividade</h2>
+                <h3 style="padding-right: 22px;">desenvolvimento</h3>
+            </div>
+        </div>
+    </main>
+
+    <section id="about">
+        <div class="container">
+            <div class="title">
+                <h1>Soft Skills</h1>
+                <p>Meu nome é Gabriel Pierre, sou desenvolvedor freelancer e estudante de engenharia da computação na UFPE.</p>
+                <div class="box-title">
+                    <p>88%</p>
+                    <div class="b1"><div class="b2"></div></div>
+                    <span>Pensamento criativo</span>
+                    <p>76%</p>
+                    <div class="b1"><div class="b3"></div></div>
+                    <span>Relacionamento interpessoal</span>
+                    <p>84%</p>
+                    <div class="b1"><div class="b4"></div></div>
+                    <span>Capacidade de resolver problemas</span>
+                    <p>84%</p>
+                    <div class="b1"><div class="b4"></div></div>
+                    <span>Negociação</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="img">
+        </div>
+    </section>
+
+    <section id="port">
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                    <img src="image/01.png" alt="">
+                    <h1>Hardware</h1>
+                    <p>Conhecimentos em sistemas digitais, arduino e raspberryPi</p>
+                    <button><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1ao4mQytYmAYToZTyThr7ISnOAnqoHRa8?usp=sharing">ver mais</a></button>
+                </label>
+
+                <label class="card" for="item-2" id="song-2">
+                    <img src="image/02.png" alt="">
+                    <h1>web</h1>
+                    <p>CSS avançado; HTML5 avançado; javaScript orientado a objetos</p>
+                    <button><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1nD09lwioUvFf-RejQgPpQOmGOGjgeZpD?usp=sharing">ver mais</a></button>
+                </label>
+
+                <label class="card" for="item-3" id="song-3">
+                    <img src="image/03.png" alt="">
+                    <h1>Algoritmos</h1>
+                    <p>Conhecimentos em lógica de programação, algoritmos e estruturas de dados.</p>
+                    <button><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1DO5M7r9kWAgSqYk_Va0rCNti0LXHd9E9?usp=sharing">ver mais</a></button>
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="content-contact">
+                <div class="contact-left">
+                    <h1>entre em contato comigo</h1>
+                    <div class="linha"></div>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span>gpcc@cin.ufpe.br</span>
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span>+55 81 99256-4028</span>
+                    <ion-icon name="location-outline"></ion-icon>
+                    <span>Recife, Pernambuco, Brasil</span>
+                </div>
+                <div class="contact-right">
+                    <h1>Preencha o fórmulario</h1>
+                    <div class="linha"></div>
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Nome">
+                    <textarea placeholder="Mensagem"></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span>&copy Copyright 2022</span>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn-mobile").click(function(){
+                $(".menu-mobile").slideToggle("slow")
+            })
+        })
+    </script>
+</body>
+</html>
