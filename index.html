@@ -7,7 +7,18 @@
     <title>Gabriel Pierre</title>
     <link rel="stylesheet" href="style.css">
     <script>
-        window.alert("Página não otimizada para dispositivos mobile");
+        document.querySelector(".close").addEventListener("click" , function(){
+            document.querySelector(".container").style.display = "none";
+        });
+
+        window.addEventListener("load" , function(){
+            setTimeout(
+                function open(event){
+                    document.querySelector(".container").style.display = "block";
+                },
+                2000
+            )
+        });
     </script>
 </head>
 <body>
