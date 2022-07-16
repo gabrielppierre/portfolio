@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Pierre</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        document.querySelector(".close").addEventListener("click" , function(){
-            document.querySelector(".container").style.display = "none";
-        });
-
-        window.addEventListener("load" , function(){
-            setTimeout(
-                function open(event){
-                    document.querySelector(".container").style.display = "block";
-                },
-                2000
-            )
-        });
-    </script>
+    <style>
+        #popup{
+            text-align: center;
+            vertical-align: center;
+            color: white;
+            margin: 0 auto;
+            width: 100%;
+            height: 100vh;
+            padding: 100px;
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
+    <div id="popup">
+        <h1>
+            página ainda não otimizada para dispositivos mobile!<br>:(
+        </h1>
+    </div>
     <header>
         <header>
             <nav>
@@ -144,5 +147,6 @@
             })
         })
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
