@@ -6,11 +6,15 @@ nav, ul, li{
 	list-style: none;
 }
 a{
-    color: #191c03;
+    color: #2cffff;
     text-decoration: none;
     cursor: pointer;
     opacity: 0.8;
     text-transform: capitalize;
+}
+header a{
+    color: #000000;
+
 }
 a:hover{
     opacity: 1;
@@ -162,25 +166,25 @@ header > nav > li{
     border-radius: 5px;
 }
 #about .container .box-title .b2{
-    width: 350px;
-    height: 8px;
-    background: #156fc3;
-    border-radius: 5px;
-}
-#about .container .box-title .b3{
     width: 300px;
     height: 8px;
     background: #156fc3;
     border-radius: 5px;
 }
+#about .container .box-title .b3{
+    width: 280px;
+    height: 8px;
+    background: #156fc3;
+    border-radius: 5px;
+}
 #about .container .box-title .b4{
-    width: 325px;
+    width: 315px;
     height: 8px;
     background: #156fc3;
     border-radius: 5px;
 }
 #about .container .box-title .b5{
-    width: 257px;
+    width: 290px;
     height: 8px;
     background: #156fc3;
     border-radius: 5px;
